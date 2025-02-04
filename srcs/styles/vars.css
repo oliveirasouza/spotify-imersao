@@ -1,0 +1,10 @@
+:root{
+    /* FONT */
+    font-family: -webkit-var(--font-dmn-sans);
+    font-family: -moz-var(--font-dmn-sans);
+    font-family: -ms-var(--font-dmn-sans);
+    font-family: -o-var(--font-dmn-sans);
+    font-family: var(--font-dmn-sans);
+
+}
+

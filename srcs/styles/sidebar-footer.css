@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    font-family: var(--font-dmn-sans);
 }
 
 .sidebar {
@@ -9,6 +10,7 @@ body {
     bottom: 0;
     padding: 12px;
     width: 300px;
+    font-family:  "DM Sans", sans-serif;
 }
 
 .sidebar__navigation {
@@ -42,7 +44,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 12px;
-    font-family: "DM Sans", sans-serif;
+
 }
 
 .library {
@@ -56,7 +58,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
-    font-family: "DM Sans", sans-serif;
+
 }
 
 .library .library_content {
@@ -74,7 +76,7 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
+
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -102,7 +104,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     color: #b3b3b3;
-    font-family: "DM Sans", sans-serif;
+
     margin: 8px 0px;
     padding: 16px 20px;
     border-radius: 10px;
@@ -116,18 +118,18 @@ body {
 .section-playlist .section-playlist_content .text {
     padding-bottom: 14px;
     color: #ffffff;
-    font-family: "DM Sans", sans-serif;
+
 }
 
 .section-playlist_content .title {
-    font-family: "DM Sans", sans-serif;
+
     font-weight: 700;
 }
 
 .section-playlist_content .subtitle {
     font-weight: 500;
     font-size: 12px;
-    font-family: "DM Sans", sans-serif;
+
 }
 
 .section-playlist_content .section-playlist_button {
@@ -138,7 +140,7 @@ body {
     color: #000;
     border-radius: 20px;
     font-size: 12px;
-    font-family: "DM Sans", sans-serif;
+  
     text-decoration: none;
     text-transform: none;
     padding: 10px;
