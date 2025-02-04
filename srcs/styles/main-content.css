@@ -94,6 +94,8 @@
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
+    border-radius: 30px;
+    border: 0,2px solid #a7a7a7;
   }
   
   .header__login .login {
