@@ -1,7 +1,7 @@
 <h1>🎵 <strong>Spotify Imensão Alura</strong></h1>
 
 <h2>📜 <strong>Descrição</strong></h2>
-<p>Bem-vindo ao <strong>Spotify Explorer</strong>, um projeto empolgante desenvolvido durante a <strong>Imersão de Front-end</strong> da Alura!<br>
+<p>Bem-vindo ao <strong>Spotify Explorer Imensão Alura</strong>, um projeto empolgante desenvolvido durante a <strong>Imersão de Front-end</strong> da Alura!<br>
 O objetivo é criar uma aplicação web interativa, proporcionando aos usuários uma experiência aprimorada para explorar a vasta biblioteca musical do Spotify.</p>
 
 <hr>
