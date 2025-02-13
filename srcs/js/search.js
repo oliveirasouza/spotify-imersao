@@ -2,21 +2,13 @@ const result = document.getElementById('result-artist');
 const playlistContainer = document.getElementById('result-playlist');
 const searchInput = document.getElementById('search-input');
 
-/*************  ✨ Codeium Command ⭐  *************/
-/**
- * Makes an API request to fetch artists based on the search term.
- * 
- * @param {string} searchTerm - The term used to search for artists.
- * 
- * Fetches data from the specified API endpoint using the search term.
- * If successful, it processes the JSON response and passes the result 
- * to the displayResults function. Logs an error message if the request fails.
- */
 
-/******  6a490088-4674-4a3a-b019-bb0e47cf5ee7  *******/
+
+
+
 function requestApi(searchTerm) {
-     //fetch(`http://localhost:5500/artists?name_like=${searchTerm}`) // Corrigido URL
-     const url = `http://localhost:5500/artists?name_like=${searchTerm}`
+     fetch(`http://localhost:5500/artists?name_like=${searchTerm}`) // Corrigido URL
+     //const url = `http://localhost:3000/artists?name_like=${searchTerm}`
       .then(response => response.json())
       .then(result => displayResults(result))
       .catch(error => console.error('Erro na API:', error));
